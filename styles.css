@@ -6,7 +6,7 @@ body {
     display: flex;
 }
 .top-part{
-    border: orange solid;
+    border: pink solid;
     background-color: #1F2937;
     color: white;
 }
@@ -30,7 +30,26 @@ align-items: center;
     list-style-type: none;
 }
 .main-title-container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     color: white;
     border: red solid;
+    align-items: center;
+}
+
+.sign-up-button {
+   border: greenyellow solid;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+#awesome-title {
+    border: orange solid;
+}
+.explanation {
+    border: blue solid;
+    
+}
+.awesome-image {
+    width: 500px;
 }
