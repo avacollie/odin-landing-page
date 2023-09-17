@@ -4,6 +4,8 @@ body {
 }
 .header {
     display: flex;
+}
+.top-part{
     border: orange solid;
     background-color: #1F2937;
     color: white;
@@ -20,9 +22,15 @@ align-items: center;
     border: orange solid;
     font-family: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 .header-links {
     font-family: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
+}
+.main-title-container {
+    background-color: #1F2937;
+    color: white;
+    border: red solid;
 }
