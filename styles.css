@@ -43,7 +43,8 @@ align-items: center;
 }
 .title-explain-button {
     display: flex;
-    align-items: center;
+    flex: 1;
+    align-items: flex-start;
     justify-content: center;
     border: pink solid;
     flex-direction: column;
@@ -67,16 +68,22 @@ flex-wrap: wrap;
     border: orange solid;
     margin: 0;
     padding: 0px;
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
 }
 .explanation {
     border: blue solid;
-    padding: 30px;
+    padding: 0;
     width: 200px;
     flex-shrink: 0;
+    font-size: 18px;
+    color: #E5E7EB;
     
 }
 .awesome-image {
-    width: 500px;
+    width: 700px;
+    height: 400px;
     border: orange solid;
     justify-content: space-between;
 }
