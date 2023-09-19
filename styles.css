@@ -96,3 +96,39 @@ padding: 5px;
 font-weight: bold;
 border-radius: 10px;
 }
+
+.information {
+    display: flex;
+    border: greenyellow solid;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    gap: 40px;
+}
+.info-title {
+    text-align: center;
+}
+.info-box {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+    border: blue solid;
+   
+}
+.information-pic {
+    height: 200px;
+    width: 200px;
+    flex-grow: 0;
+    order: -1;
+} 
+.info-text {
+    flex-wrap: wrap;
+    width: 200px;
+    border: pink solid;
+}
+.quote {
+    border: purple solid;
+}
