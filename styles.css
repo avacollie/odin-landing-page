@@ -36,7 +36,6 @@ align-content: center;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-     
      flex-wrap: wrap;
     margin-left: 200px;
     margin-right: 200px;
@@ -50,19 +49,6 @@ align-content: center;
     flex-direction: column;
     padding: 0;
     margin: 0;
-}
-    /* align-items: center;
-     justify-content: center;
-flex-wrap: wrap;
-    border: red solid;
-    margin-left: 200px;
-    margin-right: 200px;
-    align-content: space-around;
-}
-*/
-.sign-up-button {
-   border: greenyellow solid;
-    flex-shrink: 0;
 }
 #awesome-title {
     border: orange solid;
@@ -89,13 +75,6 @@ flex-wrap: wrap;
     border: orange solid;
     justify-content: space-between;
 }
-.sign-up-button {
-background-color: #3882F6;
-color: white;
-padding: 5px;
-font-weight: bold;
-border-radius: 10px;
-}
 
 .information {
     display: flex;
@@ -104,25 +83,28 @@ border-radius: 10px;
     align-items: center;
     flex-grow: 0;
     gap: 40px;
+    margin-bottom: 40px;
 }
 .info-title {
     text-align: center;
 }
 .info-box {
     display: flex;
+    height: 400px;
     flex-grow: 0;
     flex-direction: column;
-   align-content: center;
+   align-content: flex-start;
    align-items: center;
-   justify-content: center;
     border: blue solid;
+    
    
 }
 .information-pic {
-    height: 200px;
+    height: 200px;;
     width: 200px;
     flex-grow: 0;
     order: -1;
+    object-fit: cover;
 } 
 .info-text {
     flex-wrap: wrap;
@@ -135,6 +117,7 @@ border-radius: 10px;
     border: purple solid;
     background-color: #E5E7EB;
    align-items: center;
+   margin-bottom: 40px;
 } 
 
 #quote {
@@ -156,6 +139,7 @@ border-radius: 10px;
   padding-bottom: 50px;
 }
 
+/*
 .sign-up {
 display: flex;
 flex-direction: row;
@@ -177,19 +161,36 @@ flex-direction: column;
 order: 1;
 flex-shrink: 0
 }
+*/
+.sign-up {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
 .signup-title {
     border: greenyellow solid;
     margin-bottom: 0;
-    flex-shrink: 0;
 }
 .signup-text {
+    margin-top: 0;
     border: red solid;
-    flex-shrink: 0;
 }
 
 .sign-up-button {
-    order: 2;
-    max-width: fit-content;
-    margin: auto;
-    flex-shrink: 0;
+    display: flex;
+    height: fit-content;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+padding: 10px;
+font-weight: bold;
+border-radius: 10px;
+flex-shrink: 0;
 }
