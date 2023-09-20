@@ -155,3 +155,31 @@ border-radius: 10px;
    margin-right: 400px;
   padding-bottom: 50px;
 }
+
+.sign-up {
+display: flex;
+flex-direction: row;
+background-color: #3882F6;
+color: white;
+align-content: center;
+margin-top: 80px;
+padding: 10px;
+border: red solid;
+width: max-content;
+}
+.text {
+display: flex;
+flex-direction: column;
+order: 1;
+}
+.signup-title {
+    border: greenyellow solid;
+    margin-bottom: 0;
+}
+.signup-text {
+    border: red solid;
+}
+
+.sign-up-button {
+    order: 2;
+}
