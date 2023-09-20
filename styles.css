@@ -43,6 +43,7 @@ align-content: center;
 }
 .title-explain-button {
     display: flex;
+    height: 400px;
     flex: 1;
     align-items: flex-start;
     border: pink solid;
@@ -74,6 +75,7 @@ align-content: center;
     height: 400px;
     border: orange solid;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 
 .information {
@@ -83,7 +85,6 @@ align-content: center;
     align-items: center;
     flex-grow: 0;
     gap: 40px;
-    margin-bottom: 40px;
 }
 .info-title {
     text-align: center;
@@ -100,7 +101,7 @@ align-content: center;
    
 }
 .information-pic {
-    height: 200px;;
+    height: 200px;
     width: 200px;
     flex-grow: 0;
     order: -1;
@@ -123,8 +124,9 @@ align-content: center;
 #quote {
     font-size: 36px;
     font-style: italic;
-    padding: 80px;
+    padding: 0px;
     padding-bottom: 0;
+    margin-top: 50px;
     margin-bottom: 0;
     border: purple solid;
 }
@@ -139,40 +141,19 @@ align-content: center;
   padding-bottom: 50px;
 }
 
-/*
-.sign-up {
-display: flex;
-flex-direction: row;
-background-color: #3882F6;
-color: white;
-align-content: center;
-margin-top: 80px;
-padding: 100px;
-padding-top: 0;
-padding-bottom: 0;
-border: red solid;
-margin-left: 500px;
-margin-right: 500px;
-flex-shrink: 0;
-}
-.text {
-display: flex;
-flex-direction: column;
-order: 1;
-flex-shrink: 0
-}
-*/
 .sign-up {
     display: flex;
     background-color: #3882F6;
     color: white;
+    padding: 20px;
     flex: 1;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     padding-left: 40px;
     padding-right: 40px;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
 }
 .signup-title {
     border: greenyellow solid;
@@ -180,17 +161,28 @@ flex-shrink: 0
 }
 .signup-text {
     margin-top: 0;
+    margin-left: 100px;
     border: red solid;
+}
+.signup-text, .signup-title {
+    margin-left: 50px;
 }
 
 .sign-up-button {
     display: flex;
     height: fit-content;
+    width: fit-content;
     background-color: #3882F6;
     border-color: white;
     color: white;
 padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
 font-weight: bold;
 border-radius: 10px;
 flex-shrink: 0;
+}
+.sign-up-button#two {
+    border: pink solid;
+    margin-right: 100px;
 }
