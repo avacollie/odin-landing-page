@@ -163,23 +163,33 @@ background-color: #3882F6;
 color: white;
 align-content: center;
 margin-top: 80px;
-padding: 10px;
+padding: 100px;
+padding-top: 0;
+padding-bottom: 0;
 border: red solid;
-width: max-content;
+margin-left: 500px;
+margin-right: 500px;
+flex-shrink: 0;
 }
 .text {
 display: flex;
 flex-direction: column;
 order: 1;
+flex-shrink: 0
 }
 .signup-title {
     border: greenyellow solid;
     margin-bottom: 0;
+    flex-shrink: 0;
 }
 .signup-text {
     border: red solid;
+    flex-shrink: 0;
 }
 
 .sign-up-button {
     order: 2;
+    max-width: fit-content;
+    margin: auto;
+    flex-shrink: 0;
 }
