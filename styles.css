@@ -130,5 +130,28 @@ border-radius: 10px;
     border: pink solid;
 }
 .quote {
+    display: flex;
+    flex-direction: column;
     border: purple solid;
+    background-color: #E5E7EB;
+   align-items: center;
+} 
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    padding: 80px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: purple solid;
+}
+
+#citation {
+    display: flex;
+    font-size: 18px;
+    font-weight: 900px;
+    border: pink solid;
+   margin-left: auto;
+   margin-right: 400px;
+  padding-bottom: 50px;
 }
