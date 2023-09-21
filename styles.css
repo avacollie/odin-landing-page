@@ -71,6 +71,7 @@ align-content: center;
     height: 400px;
     justify-content: space-between;
     margin-bottom: 60px;
+    border-radius: 15px;
 }
 
 .information {
